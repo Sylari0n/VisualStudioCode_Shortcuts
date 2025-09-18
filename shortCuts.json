@@ -1,0 +1,78 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Arrow Keys
+    {
+        "key": "alt+a",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+W",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+d",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+s",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+
+
+    // Select
+    {
+        "key": "alt+shift+a",
+        "command": "cursorLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+w",
+        "command": "cursorUpSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+d",
+        "command": "cursorRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+s",
+        "command": "cursorDownSelect",
+        "when": "textInputFocus"
+    },
+
+    // Cursor Word
+    {
+        "key": "alt+ctrl+a",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+ctrl+d",
+        "command": "cursorWordRight",
+        "when": "textInputFocus"
+    },
+
+    // Select Word
+    {
+        "key": "alt+ctrl+shift+a",
+        "command": "cursorWordLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+ctrl+shift+d",
+        "command": "cursorWordRightSelect",
+        "when": "textInputFocus"
+    },
+
+    // Duplicate
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.duplicateSelection",
+        "when": "textInputFocus"
+    },
+]
