@@ -1,6 +1,4 @@
-// Place your key bindings in this file to override the defaults
 [
-    // Arrow Keys
     {
         "key": "alt+a",
         "command": "cursorLeft",
@@ -23,7 +21,6 @@
     },
 
 
-    // Select
     {
         "key": "alt+shift+a",
         "command": "cursorLeftSelect",
@@ -45,7 +42,6 @@
         "when": "textInputFocus"
     },
 
-    // Cursor Word
     {
         "key": "alt+ctrl+a",
         "command": "cursorWordLeft",
@@ -56,8 +52,7 @@
         "command": "cursorWordRight",
         "when": "textInputFocus"
     },
-
-    // Select Word
+    
     {
         "key": "alt+ctrl+shift+a",
         "command": "cursorWordLeftSelect",
@@ -69,10 +64,21 @@
         "when": "textInputFocus"
     },
 
-    // Duplicate
     {
         "key": "ctrl+d",
         "command": "editor.action.duplicateSelection",
         "when": "textInputFocus"
     },
+
+    {
+        "key": "shift+enter",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus"
+    },
+
+    {
+        "key": "ctrl+enter",
+        "command": "editor.action.insertLineBefore",
+        "when": "editorTextFocus"
+    }
 ]
